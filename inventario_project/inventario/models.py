@@ -10,3 +10,7 @@ class Producto(models.Model):
     precio = models.DecimalField(max_digits=6, decimal_places=2)
     
 
+class Order(models.Model):
+    date_time = models.DateTimeField()
+    
+
